@@ -71,8 +71,8 @@ font-size: 14px;
 }
 
 .btlm button {
-    font-size: 15px;
-    width: 28%;
+    font-size: 14px;
+    width: 34%;
 }
 
 .btlm p a {
@@ -85,6 +85,10 @@ font-size: 14px;
 }
 
 /* section-4 */
+
+.sec4{
+    margin: 24px;
+}
 
 .btlm1 button {
     font-size: 14px;
@@ -144,6 +148,10 @@ font-size: 14px;
     place-items: center;
 }
 
+.btlm2 button{
+    border-radius: 35%;
+    width: 45%;
+}
 /* Section-6 */
 
 .sec6{
@@ -164,6 +172,7 @@ padding: 3px;
     font-size: 14px;
     width: 22%;
     padding: 10px;
+    border-radius: 26px;
 }
 
 /* Section-7 */
@@ -222,7 +231,7 @@ padding: 3px;
 }
 
 .sec11 div{
-    margin: 25px;
+    margin: 15px;
 }
 
 /* Section - 12 */

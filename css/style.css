@@ -1,0 +1,664 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+/* Navigation Bar */
+.navbar{
+    display: flex;
+    align-items: center;
+    margin: 0px 135px 0 133px;
+}
+.navbar ul{
+    display: flex;
+    text-decoration: none;
+    margin: 0px 0px 0px 0px;
+    flex-wrap: wrap;
+}
+.navbar ul li{
+    margin: 8px;
+    padding: 10px;
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+
+}
+
+#logo1 img {
+    height: 37px;
+    width: 51px;
+    margin: 0px 0px 0px 90px;
+    padding: 8px;
+}
+
+#logo2 img {
+    height: 19px;
+    width: 19px;
+    margin: 0px 36px 0px 35px;
+    padding: 0px;
+}
+
+#logo3 img {
+    height: 22px;
+    width: 25px;
+    margin: 0px 10px 0px 10px;
+    padding: 8px;
+}
+
+/* Section-1 */
+
+.sec1{
+    background-color: rgb(240, 240, 240);
+}
+
+#sec1content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box1{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.p1{
+    text-align: center;
+    justify-content: center;
+    word-wrap: break-word;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    width: 82%;
+    font-size: 14px;
+}
+#imga{
+    max-width: 65%;
+    height: 182px;
+    /* height: 89px;
+    width: 89px; */
+    margin: 3px;
+    padding: 0px;
+}
+
+/* Section-2 */
+.p2{
+    margin: 0px;
+    padding: 12px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(226, 225, 225);
+}
+.p2 a{
+    color: rgb(65, 65, 206);
+    text-decoration: none;
+}
+
+/* Section - 3 */
+.sec3{
+    display: flex;
+    align-items: center;
+    margin: 20px 56px 0px 56px;
+    padding: 34px;
+    border-radius: 38px;
+    background-color: rgb(244, 244, 244);
+    flex-wrap: wrap;
+}
+
+.sec3 img{
+    margin: 0px -33px 0px 0px;
+    max-width: 100%;
+    height: auto;
+}
+
+.sec3 h1{
+    margin: 0px;
+    font-size: 70px;
+}
+
+.sec3 p{
+    font-size: 20px;
+}
+
+.sec3 h4{
+    font-size: 22px;
+}
+.btlm{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+
+.btlm button{
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(71, 99, 239);
+    border-radius: 25px;
+    color: white;
+    border: none;
+    width: 16%;
+}
+
+.btlm p a{
+    font-size: 17px;
+    text-decoration: none;
+    color: rgb(71, 99, 239);
+    margin: 16px;
+    padding: 12px;
+}
+
+#sec3part1{
+    margin: 61px;
+    padding: 10px;
+}
+
+/* Section-4 */
+.sec4{
+    background-color: black;
+    color: white;
+    margin: 57px;
+    padding: 10px;
+    border-radius: 26px;
+}
+
+.sec4 img{
+    max-width: 100%;
+    height: auto;
+}
+
+.sec4div1 h1{
+    font-size: 70px;
+    margin: 30px;
+}
+
+.sec4div1 p{
+    font-size: 23px;
+}
+
+.sec4div1 h4{
+    font-size: 23px;
+    margin: 0px;
+}
+
+.btlm1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec4div1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btlm1 button {
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(71, 99, 239);
+    border-radius: 25px;
+    color: white;
+    border: none;
+    width: 5%;
+}
+
+.btlm1 p a{
+    font-size: 17px;
+    text-decoration: none;
+    color: rgb(71, 99, 239);
+    margin: 16px;
+    padding: 12px;
+}
+
+/* Section-5 */
+.sec5{
+    text-align: center;
+    place-items: center;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.container{
+    padding: 90px;
+    margin: 0px 185px 0px 185px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(280px,1fr));
+}
+.subcon{
+    display: grid;
+    margin: 10px;
+    padding: 10px;
+    place-items: center;
+}
+
+.btlm2{
+    display: grid;
+    place-items: center;
+}
+
+.btlm2 button{
+    margin: 5px;
+    padding: 8px;
+    background-color: rgb(71, 99, 239);
+    color: white;
+    border-radius: 39%;
+    width: 57%;
+    border: none;
+}
+.btlm2 p a{
+    text-decoration: none;
+    color: rgb(71, 99, 239);
+}
+#h-primary{
+    font-size: 50px;
+}
+#h-secondary{
+    font-size: 30px;
+}
+#h-tertiary{
+    margin: 7px;
+    font-size: 15px;
+}
+
+#laptop1{
+    margin-bottom: 15px;
+}
+
+#laptop2{
+    margin-bottom: 15px;
+}
+
+#laptop3{
+    
+}
+
+.subconsec5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 35px 0px 31px;
+}
+
+.subconsec5 span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.subconsec5 p {
+    margin: 0;
+}
+
+/* Box-1 */
+#display1{
+    margin: 0px 0px 26px 0px;
+}
+
+#cpu1{
+    margin: 11px 0px 0px 0px;
+}
+
+#gpu1{
+    margin: 26px 0px 31px 0px;
+}
+
+#chip1{
+    margin: 26px 0px 34px 0px;
+}
+
+#memory1{
+    margin: 26px 0px 26px 0px;
+}
+
+#storage1{
+    margin: 15px 0px 26px 0px;
+}
+
+#battery1{
+    margin: 26px 0px 26px 0px;
+}
+
+#camera1{
+    margin: 26px 0px 26px 0px;
+}
+
+#sound1{
+    margin: 26px 0px 26px 0px;
+}
+
+#weight1{
+    margin: 28px 0px 0px 0px;
+}
+
+#touchid1{
+    margin: 45px 0px 10px 0px;
+}
+
+/* Box-2 */
+#display2{
+    margin: 20px 0px 52px 0px;
+}
+
+#cpu2{
+    margin: 10px 0px 10px 0px;
+}
+
+#gpu2{
+    margin: 26px 0px 31px 0px;
+}
+
+#chip2{
+    margin: 0px 0px 26px 0px;
+}
+
+#memory2{
+    margin: 26px 0px 26px 0px;
+}
+
+#storage2{
+    margin: 15px 0px 26px 0px;
+}
+
+#battery2{
+    margin: 26px 0px 26px 0px;
+}
+
+#camera2{
+    margin: 26px 0px 26px 0px;
+}
+
+#sound2{
+    margin: 26px 0px 26px 0px;
+}
+
+#weight2{
+    margin: 10px 0px 20px 0px;
+}
+
+#touchid2{
+    margin: 22px 0px 31px 0px;
+}
+
+/* Box-3 */
+#display3{
+    margin: 20px 0px 52px 0px;
+}
+
+#cpu3{
+    margin: 10px 0px 10px 0px;
+}
+
+#gpu3{
+    margin: 26px 0px 31px 0px;
+}
+
+#chip3{
+    margin: 0px 0px 26px 0px;
+}
+
+#memory3{
+    margin: 26px 0px 26px 0px;
+}
+
+#storage3{
+    margin: 15px 0px 26px 0px;
+}
+
+#battery3{
+    margin: 26px 0px 26px 0px;
+}
+
+#camera3{
+    margin: 26px 0px 26px 0px;
+}
+
+#sound3{
+    margin: 26px 0px 26px 0px;
+}
+
+#weight3{
+    margin: 10px 0px 20px 0px;
+}
+
+#touchid3{
+    margin: 22px 0px 31px 0px;
+}
+
+/* Section-6 */
+.sec6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(249, 249, 249);
+    margin: 20px 56px 0px 56px;
+    padding: 34px;
+    border-radius: 38px;
+}
+
+.sec6 img{
+    max-width: 100%;
+    height: auto;
+}
+.sec6 h2{
+    margin: 10px;
+    font-size: 25px;
+}
+.sec6 h1{
+    margin: 0px;
+    font-size: 50px;
+}
+.sec6 button{
+    border: none;
+    font-size: 16px;
+    margin: 35px;
+    padding: 13px;
+    color: white;
+    border-radius: 38%;
+    width: 5%;
+    background-color: rgb(71, 99, 239);
+}
+
+/* Section-7 */
+
+.sec7{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(280px,1fr));
+    margin: 20px 48px 10px 48px;
+
+}
+
+.sec7 a{
+    text-decoration: none;
+}
+
+.sec7 p{
+    font-size: 21px;
+    color: white;
+    
+}
+
+.sec7 h1{
+    font-size: 40px;
+    color: white;
+}
+.sec7 div{
+    margin: 33px 17px 0px 17px;
+    padding: 130px;
+}
+
+.appleatwork{
+    background-image: url(/img/decbg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.appleandedu{
+    background-image: url(/img/decbg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+/* Section-8 */
+
+
+.sec8{
+    margin-top: 40px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(240, 240, 240);
+   
+}
+
+.sec8 a{
+    text-decoration: none;
+    color: black;
+}
+.sec8 div{
+    height: 200px;
+    width: 200px;
+    margin: 56px;
+    padding: 0px;
+}
+
+.sec8 div img{
+    height: 50px;
+    width: 50px;
+}
+
+.sec8cont{
+    text-align: center;
+}
+
+.sec8cont img{
+    height: 100px;
+    width: 100px;
+}
+
+/* Section-9 */
+.sec9{
+    background-color: rgb(240, 240, 240);
+}
+
+.sec9 div{
+    margin: 0px;
+    padding: 19px 274px 35px 247px;
+    font-size: 14px;
+}
+
+
+hr{
+    margin: 0px 275px 0px 243px;
+    background-color: rgb(240, 240, 240);
+}
+
+/* Section -10 */
+.sec10{
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    margin: 0px;
+    padding: 10px 10px 10px 260px;
+}
+
+.sec10 pre{
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sec10 img{
+    height: 36px;
+    width: 36px;
+}
+
+/* Section-11 */
+.sec11{
+    padding-left: 243px;
+    padding-right: 274px;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sec11 a{
+    text-decoration: none;
+    color: black;
+}
+.sec11 div{
+    text-align: center;
+    margin: 30px;
+    padding: 2px;
+}
+
+.sec11 p{
+    font-size: 14px;
+}
+
+/* Section-12 */
+.sec12{
+    margin:  0px;
+    padding: 0px 10px 0px 244px;
+    background-color: rgb(240, 240, 240);
+}
+
+.sec12 a {
+    text-decoration: none;
+    color: black;
+}
+
+.sec12 p{
+    padding: 10px 0px;
+    margin: 0px;
+    text-align: left;
+    font-size: 14px;
+}
+
+/* footer */
+
+#hr{
+    background-color: rgb(240, 240, 240);
+}
+.footer{
+    margin:  0px;
+    padding: 10px 278px 10px 244px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(280px,1fr));
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+    white-space: nowrap;
+}
+
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+
+.left{
+    text-align: left;
+    font-size: 13px;
+}
+
+.middle{
+    text-align: center;
+    font-size: 13px;
+}
+
+.right{
+    text-align: right;
+    font-size: 13px;
+}

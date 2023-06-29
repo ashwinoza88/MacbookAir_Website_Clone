@@ -89,6 +89,12 @@ font-size: 14px;
 .btlm1 button {
     font-size: 14px;
     width: 18%;
+    padding: 7px;
+    border-radius: 13px;
+}
+
+.btlm1 p a{
+    font-size: 15px;
 }
 
 .sec4div1 p {
@@ -157,6 +163,7 @@ padding: 3px;
 .sec6 button {
     font-size: 14px;
     width: 22%;
+    padding: 10px;
 }
 
 /* Section-7 */
@@ -212,6 +219,10 @@ padding: 3px;
 
 .sec11 p{
     font-size: 13px;
+}
+
+.sec11 div{
+    margin: 25px;
 }
 
 /* Section - 12 */

@@ -499,14 +499,14 @@ body{
 }
 
 .appleatwork{
-    background-image: url(/img/decbg1.jpg);
+    background-image: url(../img/decbg1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
 }
 
 .appleandedu{
-    background-image: url(/img/decbg2.jpg);
+    background-image: url(../img/decbg2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
